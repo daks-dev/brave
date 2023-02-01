@@ -11,7 +11,7 @@
   {description} />
 
 <main
-  class="flex flex-col justify-center items-center text-center h-screen"
+  class="grow justify-center items-center text-center overflow-hidden"
   itemprop="mainContentOfPage">
   <div
     use:confetti={{
