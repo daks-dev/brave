@@ -28,7 +28,7 @@
   <meta
     name="robots"
     content="noindex, follow" />
-  <title>DAKS PKG • Iconify</title>
+  <title>Храбров А.П. • Iconify</title>
 </svelte:head>
 
 <main>

@@ -2,7 +2,9 @@
   import { confetti } from '@neoconfetti/svelte';
   import { YandexMetrikaHit } from 'daks-svelte';
 
-  const title = 'ИП Храбров А.П. • Официальный сайт';
+  const year = new Date().getFullYear();
+
+  const title = 'Храбров А.П. • Официальный сайт';
   const description = 'Официальный сайт индивидуального предпренимателя Храброва Антона Павловича';
 </script>
 
@@ -29,6 +31,6 @@
     class="button whitespace-nowrap hover:text-gray-100 hover:bg-slate-500"
     href="https://kit.svelte.dev"
     target="_blank">
-    2022 &star; Svelte Kit
+    {year} &star; Svelte Kit
   </a>
 </main>
